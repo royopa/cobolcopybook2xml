@@ -1,0 +1,23 @@
+{
+    "name": "royopa/cobolcopybook2xml",
+    "description": "A Cobol copybook to Xml converter",
+    "authors": [
+        {
+            "name": "Rodrigo Prado de Jesus",
+            "email": "royopa@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/filesystem": "^3.0",
+        "symfony/dom-crawler": "^3.0",
+        "halilim/xml-iterator": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "CobolCopybook2Xml\\": "src"
+        }
+    }
+}
